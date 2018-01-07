@@ -1,0 +1,317 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: cadetblue;
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+.header img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.header p {
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.weird {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 63%;
+  padding-left: 3.289rem;
+}
+
+.nav p {
+  padding-right: 2rem;
+}
+
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  height: 30rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  font-family: helvetica;
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  margin-left: 22rem;
+  margin-top: 10rem;
+}
+
+.middle {
+  height: 8rem;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.middleone {
+  width: 6rem;
+  margin-right: 6rem;
+  height: 8rem;
+  text-align: center;
+}
+
+.middletwo {
+  width: 5rem;
+  margin-right: 6rem;
+  height: 8rem;
+  text-align: center;
+}
+
+.middlethree {
+  width: 5rem;
+  margin-right: 6rem;
+  height: 8rem;
+  text-align: center;
+}
+
+.one {
+  width: 3.5rem;
+}
+
+.two,
+.three {
+  width: 5rem;
+}
+.bat {
+  padding-top: 3rem;
+}
+
+.ape {
+  padding-top: 1.25rem;
+}
+
+.cat {
+  padding-top: 2.5rem;
+}
+
+.yellow {
+  background-color: cadetblue;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+  width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.bottom {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 960px;
+}
+
+.bottomone {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.bottomtwo {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  width: 960px;
+  align-items: center;
+}
+
+.footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px)
+{
+  .header {
+    margin-top: none;
+    width: 100%;
+    margin-top: 0;
+  }
+  .main {
+    height: 22rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .box {
+    margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+  }
+  .box p {
+    font-size: 1.33rem;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px)
+{
+  .weird {
+    display: inline;
+    font-family: helvetica;
+    color: red;
+  }
+  .me {
+    display: none;
+  }
+  .main {
+    height: 17rem;
+    background-position: 20%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .box {
+    width: 100%;
+    margin-top: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  .box p {
+    font-size: 1rem;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .bottomone {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .bottomtwo {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .bottom {
+    width: 455px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .yellow {
+    width: 100%;
+    text-align: center;
+  }
+  .pink {
+    display: none;
+  }
+  .silver {
+    font-family: helvetica;
+    font-size: 0.77rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer img {
+    margin: 0;
+    padding: 0;
+  }
+  .ape,
+  .bat,
+  .cat {
+    font-size: 0.77rem;
+    font-family: helvetica;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .ape,
+  .bat {
+    width: 5rem;
+  }
+  .cat {
+    width: 4rem;
+  }
+  .one,
+  .two,
+  .three {
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+  }
+  .middleone,
+  .middletwo,
+  .middlethree {
+    height: auto;
+    width: 399px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .middleone {
+    margin-top: 0;
+    margin-bottom: 1.54rem;
+  }
+  .middlethree {
+    margin-top: 1.54rem;
+    margin-bottom: 0;
+  }
+  .yellow {
+    margin-bottom: 1rem;
+  }
+}
